@@ -1,1 +1,1 @@
-# PolandWarBot
+# PolandWar
