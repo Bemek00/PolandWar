@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="author" content="Patrk Bohm">
+        
+        <link rel="stylesheet" href="mapaStyle.css" type="text/css"/>
+        <script src="mapaJavaScript.js"></script>
+    </head>
+    <body>
+        <div class="mapa">
+            <img class="wZachodnio-pomorskie" src="wojewodztwa/wojZachodnio-pomorskie.png"/>
+            <img class="wPomorskie" src="wojewodztwa/wojPomorskie.png"/>
+            <img class="wLubuskie" src="wojewodztwa/wojLubuskie.png"/>
+            <img class="wWielkopolskie" src="wojewodztwa/wojWielkopolskie.png"/>
+            <img class="wKujawsko-pomorskie" src="wojewodztwa/wojKujawsko-pomorskie.png"/>
+            <img class="wWarminsko-mazurskie" src="wojewodztwa/wojWarminsko-mazurskie.png"/>
+            <img class="wPodlaskie" src="wojewodztwa/wojPodlaskie.png"/>
+            <img class="wMazowieckie" src="wojewodztwa/wojMazowieckie.png"/>
+            <img class="wDolnoslaskie" src="wojewodztwa/wojDolnoslaskie.png"/>
+            <img class="wOpolskie" src="wojewodztwa/wojOpolskie.png"/>
+            <img class="wLodzkie" src="wojewodztwa/wojLodzkie.png"/>
+            <img class="wSlaskie" src="wojewodztwa/wojSlaskie.png"/>
+            <img class="wSwietokrzyskie" src="wojewodztwa/wojSwietokrzyskie.png"/>
+            <img class="wMalopolskie" src="wojewodztwa/wojMalopolskie.png"/>
+            <img class="wLubeleskie" src="wojewodztwa/wojLubelskie.png"/>
+            <img class="wPodkarpackie" src="wojewodztwa/wojPodkarpackie.png"/>
+        </div>
+        
+        <img src="strzalka.png" id="str"/>
+        
+        <p id="info"></p>
+        <p id="info2"></p>
+        <p id="info3"></p>
+        
+        <p id="historia">Historia</p>
+        
+        <script>
+            document.getElementById("str").onclick = klik;
+            document.getElementById("stop").onclick = stop;
+            document.getElementById("symulacja").addEventListener("click",function(){timer(0,delaye[nrDelaya])});
+        </script>
+    </body>
+</html>
