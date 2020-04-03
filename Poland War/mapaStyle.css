@@ -1,0 +1,181 @@
+html{
+	font-size: 20px;
+	font-family: monospace;
+	font-weight: 800;
+	margin: 0;
+	padding: 0;
+}
+
+.mapa{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+            
+.wZachodnio-pomorskie{
+    position: absolute;
+    width: 290px;
+    left: -51px;
+    top: -37px;
+    filter: hue-rotate(0deg);
+}
+            
+.wPomorskie{
+    position: absolute;
+    width: 290px;
+    left: 97px;
+    top: -76.5px;
+    filter: hue-rotate(50deg);
+}
+            
+.wLubuskie{
+    position: absolute;
+    width: 290px;
+    left: -60.5px;
+    top: 101px;
+    filter: hue-rotate(160deg);
+}
+
+.wWielkopolskie{
+    position: absolute;
+    width: 290px;
+    left: 49px;
+    top: 93px;
+    filter: hue-rotate(250deg);
+}
+
+.wKujawsko-pomorskie{
+    position: absolute;
+    width: 290px;
+    left: 112px; 
+    top: 31px;
+    filter: hue-rotate(300deg);
+}
+
+.wWarminsko-mazurskie{
+    position: absolute;
+    width: 290px;
+    left: 247.5px;
+    top: -40.5px;
+    filter: hue-rotate(90deg);
+}
+
+.wPodlaskie{
+    position: absolute;
+    width: 290px;
+    left: 356.5px;
+    top: -4px;
+    filter: hue-rotate(200deg);
+}
+
+.wMazowieckie{
+    position: absolute;
+    width: 290px;
+    left: 269.5px;
+    top: 103.5px;
+    filter: hue-rotate(25deg);
+}
+
+.wDolnoslaskie{
+    position: absolute;
+    width: 290px;
+    left: -16.5px;
+    top: 228px;
+    filter: opacity(.7) drop-shadow(0 0 0 blue);
+}
+
+.wOpolskie{
+    position: absolute;
+    width: 290px;
+    left: 69px;
+    top: 266.5px;
+    filter: opacity(.5) drop-shadow(0 0 0 blue);
+}
+
+.wLodzkie{
+    position: absolute;
+    width: 290px;
+    left: 163.5px;
+    top: 169px;
+    filter: opacity(.1) drop-shadow(0 0 0 blue);
+}
+
+.wSlaskie{
+    position: absolute;
+    width: 290px;
+    left: 147.5px;
+    top: 300px;
+    filter: hue-rotate(120deg);
+}
+
+.wSwietokrzyskie{
+    position: absolute;
+    width: 290px;
+    left: 245.5px;
+    top: 251px;
+    filter: opacity(.3) drop-shadow(0 0 0 black) hue-rotate(250deg);
+}
+
+.wMalopolskie{
+    position: absolute;
+    width: 290px;
+    left: 217px;
+    top: 334.5px;
+    filter: opacity(.9) drop-shadow(0 0 0 black);
+}
+
+.wLubeleskie{
+    position: absolute;
+    width: 290px;
+    left: 369.5px;
+    top: 195.5px;
+    filter: opacity(.4) drop-shadow(0 0 0 black) hue-rotate(160deg);
+}
+
+.wPodkarpackie{
+    position: absolute;
+    width: 290px;
+    left: 335.5px;
+    top: 314.5px;
+    filter: opacity(.3) drop-shadow(0 0 0 black) hue-rotate(50deg);
+}
+
+#str{
+    position: absolute;
+    width: 200px;
+	top: 600px;
+    left: 200px;
+}
+
+#info{
+    position: absolute;
+    top: 670px;
+}
+
+#info2{
+    position: absolute;
+    left: 200px;
+    top: 700px;
+}
+
+#info3{
+    position: absolute;
+    left: 750px;
+    top: 300px;
+}
+
+#info4{
+    position: absolute;
+    left: 670px;
+    top: 100px;
+}
+
+#historia{
+	position: absolute;
+	font-size: 12px;
+	top: 10px;
+    left: 625px;
+	height: 550px;
+	width: auto;
+	overflow-y: auto;
+}
